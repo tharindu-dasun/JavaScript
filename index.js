@@ -54,10 +54,19 @@ let firstName = "tharindu";
 //
 // console.log("Happy " + age + " Birthday !")
 
-let x = Number("2.55");
-let y = String("2.55");
-let z = Boolean("AAA");
+// let x = Number("2.55");
+// let y = String("2.55");
+// let z = Boolean("AAA");
+//
+// console.log(x, typeof x);
+// console.log(y, typeof y);
+// console.log(z, typeof z);
 
-console.log(x, typeof x);
-console.log(y, typeof y);
-console.log(z, typeof z);
+//Const
+
+const height = 50;
+let width;
+
+width = window.prompt("Enter width :");
+let area = height * width;
+console.log("Area : " + area);
