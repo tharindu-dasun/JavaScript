@@ -31,3 +31,16 @@ students %= 3;
 
 let result = 5 + 5 * (3+4);
 console.log(result);
+
+//User Input
+
+// let userName = window.prompt("Your Name ?");
+// console.log(userName);
+
+let userName;
+
+document.getElementById("btn").onclick = function (){
+    userName = document.getElementById("my").value;
+    console.log(userName);
+    document.getElementById("myLabel").innerHTML = "Hello "+userName;
+}
