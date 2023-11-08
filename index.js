@@ -135,19 +135,23 @@ let firstName = "tharindu";
 //     }
 // }
 
-document.getElementById("submit").onclick = function () {
+// document.getElementById("submit").onclick = function () {
+//
+//     const visaRadio = document.getElementById("visaRadio");
+//     const masterRadio = document.getElementById("masterRadio");
+//     const paypalRadio = document.getElementById("paypalRadio");
+//
+//     if (visaRadio.checked){
+//         console.log("Visa pay");
+//     }else if (masterRadio.checked){
+//         console.log("Master pay");
+//     }else if (paypalRadio.checked){
+//         console.log("Paypal pay");
+//     }else {
+//         console.log("Select Payment");
+//     }
+// }
 
-    const visaRadio = document.getElementById("visaRadio");
-    const masterRadio = document.getElementById("masterRadio");
-    const paypalRadio = document.getElementById("paypalRadio");
-
-    if (visaRadio.checked){
-        console.log("Visa pay");
-    }else if (masterRadio.checked){
-        console.log("Master pay");
-    }else if (paypalRadio.checked){
-        console.log("Paypal pay");
-    }else {
-        console.log("Select Payment");
-    }
+for ( let i = 1 ; i<=10 ; i+=1){
+    console.log(i);
 }
