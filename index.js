@@ -154,12 +154,29 @@ let firstName = "tharindu";
 
 // Nested loop
 
-let rows = window.prompt("Rows :");
-let colums = window.prompt("Colums :");
+// let rows = window.prompt("Rows :");
+// let colums = window.prompt("Colums :");
+//
+// for ( let i = 1 ; i<=rows ; i+=1){
+//     for (let j =1; j<=colums ; j+=1){
+//         document.getElementById("kotuwa").innerHTML +=j;
+//     }
+//     document.getElementById("kotuwa").innerHTML += "<br>";
+// }
 
-for ( let i = 1 ; i<=rows ; i+=1){
-    for (let j =1; j<=colums ; j+=1){
-        document.getElementById("kotuwa").innerHTML +=j;
-    }
-    document.getElementById("kotuwa").innerHTML += "<br>";
+
+start();
+
+function start(){
+    let name = "kasun";
+    let age = 22;
+
+    birthday( name , age);
+}
+
+function birthday( name , age ) {
+    console.log("Happy Birthday to you ...!");
+    console.log("Happy Birthday to you ...!");
+    console.log("Happy Birthday dear " , name , "...!");
+    console.log("Happy " , age , " Birthday to you ...!");
 }
