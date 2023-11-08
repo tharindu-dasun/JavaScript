@@ -181,14 +181,20 @@ let firstName = "tharindu";
 //     console.log("Happy " , age , " Birthday to you ...!");
 // }
 
-let width = window.prompt("Enter Width :");
-let height = window.prompt(" Enter height :");
-let area;
+// let width = window.prompt("Enter Width :");
+// let height = window.prompt(" Enter height :");
+// let area;
+//
+//  area = getArea(width, height);
+//
+// console.log("Area : " , area);
+//
+// function getArea( width, height) {
+//     return width * height;
+// }
 
- area = getArea(width, height);
+checkWinner(true);
 
-console.log("Area : " , area);
-
-function getArea( width, height) {
-    return width * height;
+function checkWinner(win){
+    win ? console.log("You Win !") : console.log("You lose !")
 }
