@@ -152,6 +152,14 @@ let firstName = "tharindu";
 //     }
 // }
 
-for ( let i = 1 ; i<=10 ; i+=1){
-    console.log(i);
+// Nested loop
+
+let rows = window.prompt("Rows :");
+let colums = window.prompt("Colums :");
+
+for ( let i = 1 ; i<=rows ; i+=1){
+    for (let j =1; j<=colums ; j+=1){
+        document.getElementById("kotuwa").innerHTML +=j;
+    }
+    document.getElementById("kotuwa").innerHTML += "<br>";
 }
