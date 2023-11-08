@@ -85,18 +85,34 @@ let firstName = "tharindu";
 // }
 
 //Countdown
+//
+// let count = 0;
+//
+// document.getElementById('decrease').onclick = function () {
+//     count-=1;
+//     document.getElementById("count").innerHTML = count;
+// }
+// document.getElementById('reset').onclick = function () {
+//     count =0;
+//     document.getElementById("count").innerHTML = count;
+// }
+// document.getElementById('increase').onclick = function () {
+//     count+=1;
+//     document.getElementById("count").innerHTML = count;
+// }
 
-let count = 0;
+//Raandom
 
-document.getElementById('decrease').onclick = function () {
-    count-=1;
-    document.getElementById("count").innerHTML = count;
-}
-document.getElementById('reset').onclick = function () {
-    count =0;
-    document.getElementById("count").innerHTML = count;
-}
-document.getElementById('increase').onclick = function () {
-    count+=1;
-    document.getElementById("count").innerHTML = count;
+let x;
+let y;
+let z;
+
+document.getElementById("roll").onclick = function () {
+    x = Math.floor(Math.random()*6)+1;
+    y = Math.floor(Math.random()*6)+1;
+    z = Math.floor(Math.random()*6)+1;
+
+    document.getElementById("xx").innerHTML = x;
+    document.getElementById("yy").innerHTML = y;
+    document.getElementById("zz").innerHTML = z;
 }
