@@ -165,18 +165,30 @@ let firstName = "tharindu";
 // }
 
 
-start();
+// start();
+//
+// function start(){
+//     let name = "kasun";
+//     let age = 22;
+//
+//     birthday( name , age);
+// }
+//
+// function birthday( name , age ) {
+//     console.log("Happy Birthday to you ...!");
+//     console.log("Happy Birthday to you ...!");
+//     console.log("Happy Birthday dear " , name , "...!");
+//     console.log("Happy " , age , " Birthday to you ...!");
+// }
 
-function start(){
-    let name = "kasun";
-    let age = 22;
+let width = window.prompt("Enter Width :");
+let height = window.prompt(" Enter height :");
+let area;
 
-    birthday( name , age);
-}
+ area = getArea(width, height);
 
-function birthday( name , age ) {
-    console.log("Happy Birthday to you ...!");
-    console.log("Happy Birthday to you ...!");
-    console.log("Happy Birthday dear " , name , "...!");
-    console.log("Happy " , age , " Birthday to you ...!");
+console.log("Area : " , area);
+
+function getArea( width, height) {
+    return width * height;
 }
