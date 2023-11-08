@@ -127,10 +127,27 @@ let firstName = "tharindu";
 // console.log(firstname);
 // console.log(lastname);
 
-document.getElementById("btn").onclick = function () {
-    if (document.getElementById("checkbox").checked){
-        console.log("Hari");
+// document.getElementById("btn").onclick = function () {
+//     if (document.getElementById("checkbox").checked){
+//         console.log("Hari");
+//     }else {
+//         console.log("Hari na");
+//     }
+// }
+
+document.getElementById("submit").onclick = function () {
+
+    const visaRadio = document.getElementById("visaRadio");
+    const masterRadio = document.getElementById("masterRadio");
+    const paypalRadio = document.getElementById("paypalRadio");
+
+    if (visaRadio.checked){
+        console.log("Visa pay");
+    }else if (masterRadio.checked){
+        console.log("Master pay");
+    }else if (paypalRadio.checked){
+        console.log("Paypal pay");
     }else {
-        console.log("Hari na");
+        console.log("Select Payment");
     }
 }
