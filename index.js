@@ -73,13 +73,30 @@ let firstName = "tharindu";
 
 //hypotenuse
 
-document.getElementById("btn").onclick = function (){
-    let a = document.getElementById("sideA").value;
-    a = Number(a);
-    let b = document.getElementById("sideB").value;
-    b = Number(b);
+// document.getElementById("btn").onclick = function (){
+//     let a = document.getElementById("sideA").value;
+//     a = Number(a);
+//     let b = document.getElementById("sideB").value;
+//     b = Number(b);
+//
+//     let c = Math.sqrt(Math.pow(a, 2) + Math.pow(b,2 ));
+//
+//     document.getElementById("cLable").innerHTML = "C : " + c;
+// }
 
-    let c = Math.sqrt(Math.pow(a, 2) + Math.pow(b,2 ));
+//Countdown
 
-    document.getElementById("cLable").innerHTML = "C : " + c;
+let count = 0;
+
+document.getElementById('decrease').onclick = function () {
+    count-=1;
+    document.getElementById("count").innerHTML = count;
+}
+document.getElementById('reset').onclick = function () {
+    count =0;
+    document.getElementById("count").innerHTML = count;
+}
+document.getElementById('increase').onclick = function () {
+    count+=1;
+    document.getElementById("count").innerHTML = count;
 }
