@@ -193,8 +193,16 @@ let firstName = "tharindu";
 //     return width * height;
 // }
 
-checkWinner(true);
+// checkWinner(true);
+//
+// function checkWinner(win){
+//     win ? console.log("You Win !") : console.log("You lose !")
+// }
 
-function checkWinner(win){
-    win ? console.log("You Win !") : console.log("You lose !")
-}
+let userName = "Kasun";
+let items = 3;
+let total = 150;
+
+let text = `hello ${userName} , your have ${items} total items , and your total price is $ ${total}`
+
+document.getElementById("total").innerHTML = text;
