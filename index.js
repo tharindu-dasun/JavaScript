@@ -64,9 +64,22 @@ let firstName = "tharindu";
 
 //Const
 
-const height = 50;
-let width;
+// const height = 50;
+// let width;
+//
+// width = window.prompt("Enter width :");
+// let area = height * width;
+// console.log("Area : " + area);
 
-width = window.prompt("Enter width :");
-let area = height * width;
-console.log("Area : " + area);
+//hypotenuse
+
+document.getElementById("btn").onclick = function (){
+    let a = document.getElementById("sideA").value;
+    a = Number(a);
+    let b = document.getElementById("sideB").value;
+    b = Number(b);
+
+    let c = Math.sqrt(Math.pow(a, 2) + Math.pow(b,2 ));
+
+    document.getElementById("cLable").innerHTML = "C : " + c;
+}
