@@ -103,16 +103,26 @@ let firstName = "tharindu";
 
 //Raandom
 
-let x;
-let y;
-let z;
+// let x;
+// let y;
+// let z;
+//
+// document.getElementById("roll").onclick = function () {
+//     x = Math.floor(Math.random()*6)+1;
+//     y = Math.floor(Math.random()*6)+1;
+//     z = Math.floor(Math.random()*6)+1;
+//
+//     document.getElementById("xx").innerHTML = x;
+//     document.getElementById("yy").innerHTML = y;
+//     document.getElementById("zz").innerHTML = z;
+// }
 
-document.getElementById("roll").onclick = function () {
-    x = Math.floor(Math.random()*6)+1;
-    y = Math.floor(Math.random()*6)+1;
-    z = Math.floor(Math.random()*6)+1;
+let fullName = "tharindu dasun";
+let firstname ;
+let lastname ;
 
-    document.getElementById("xx").innerHTML = x;
-    document.getElementById("yy").innerHTML = y;
-    document.getElementById("zz").innerHTML = z;
-}
+firstname = fullName.slice(0,fullName.indexOf(""));
+lastname = fullName.slice(0,fullName.indexOf(""));
+
+console.log(firstname);
+console.log(lastname);
