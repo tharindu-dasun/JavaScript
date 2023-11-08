@@ -117,12 +117,20 @@ let firstName = "tharindu";
 //     document.getElementById("zz").innerHTML = z;
 // }
 
-let fullName = "tharindu dasun";
-let firstname ;
-let lastname ;
+// let fullName = "tharindu dasun";
+// let firstname ;
+// let lastname ;
+//
+// firstname = fullName.slice(0,fullName.indexOf(""));
+// lastname = fullName.slice(0,fullName.indexOf(""));
+//
+// console.log(firstname);
+// console.log(lastname);
 
-firstname = fullName.slice(0,fullName.indexOf(""));
-lastname = fullName.slice(0,fullName.indexOf(""));
-
-console.log(firstname);
-console.log(lastname);
+document.getElementById("btn").onclick = function () {
+    if (document.getElementById("checkbox").checked){
+        console.log("Hari");
+    }else {
+        console.log("Hari na");
+    }
+}
