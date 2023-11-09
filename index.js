@@ -199,10 +199,19 @@ let firstName = "tharindu";
 //     win ? console.log("You Win !") : console.log("You lose !")
 // }
 
-let userName = "Kasun";
-let items = 3;
-let total = 150;
+// let userName = "Kasun";
+// let items = 3;
+// let total = 150;
+//
+// let text = `hello ${userName} , your have ${items} total items , and your total price is $ ${total}`
+//
+// document.getElementById("total").innerHTML = text;
 
-let text = `hello ${userName} , your have ${items} total items , and your total price is $ ${total}`
+document.getElementById("submit").onclick = function (){
+    let temp ;
+    if (document.getElementById("cradio").checked){
 
-document.getElementById("total").innerHTML = text;
+    }else if (document.getElementById("fradio").checked){
+
+    }
+}
