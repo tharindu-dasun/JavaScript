@@ -206,12 +206,27 @@ let firstName = "tharindu";
 // let text = `hello ${userName} , your have ${items} total items , and your total price is $ ${total}`
 //
 // document.getElementById("total").innerHTML = text;
+//
+// document.getElementById("submit").onclick = function (){
+//     let temp ;
+//     if (document.getElementById("cradio").checked){
+//
+//     }else if (document.getElementById("fradio").checked){
+//
+//     }
+// }
 
-document.getElementById("submit").onclick = function (){
-    let temp ;
-    if (document.getElementById("cradio").checked){
+//Arrays
 
-    }else if (document.getElementById("fradio").checked){
+let fruits = ["apple" , "banana" , "mango"];
 
-    }
-}
+fruits.push("lemon");
+console.log(fruits);
+console.log(fruits[0]);
+
+fruits.pop();
+fruits.unshift("bbbb")
+fruits.shift();
+
+let length = fruits.length;
+console.log(length);
