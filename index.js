@@ -231,11 +231,19 @@ let firstName = "tharindu";
 // let length = fruits.length;
 // console.log(length);
 
-let fruits = ["apple" , "banana" , "mango" , "zer"];
+// let fruits = ["apple" , "banana" , "mango" , "zer"];
+//
+// // fruits = fruits.sort();
+// fruits = fruits.sort().reverse();
+//
+// for (let fruit of fruits){
+//     console.log(fruit);
+// }
 
-// fruits = fruits.sort();
-fruits = fruits.sort().reverse();
+//Spread operator
 
-for (let fruit of fruits){
-    console.log(fruit);
-}
+let class1 = ["A" , "B" , "C"];
+let class2 = ["D" , "E" , "F"];
+
+class1.push(...class2);
+console.log(class1);
