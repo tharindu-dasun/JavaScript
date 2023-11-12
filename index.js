@@ -218,15 +218,24 @@ let firstName = "tharindu";
 
 //Arrays
 
-let fruits = ["apple" , "banana" , "mango"];
+// let fruits = ["apple" , "banana" , "mango"];
+//
+// fruits.push("lemon");
+// console.log(fruits);
+// console.log(fruits[0]);
+//
+// fruits.pop();
+// fruits.unshift("bbbb")
+// fruits.shift();
+//
+// let length = fruits.length;
+// console.log(length);
 
-fruits.push("lemon");
-console.log(fruits);
-console.log(fruits[0]);
+let fruits = ["apple" , "banana" , "mango" , "zer"];
 
-fruits.pop();
-fruits.unshift("bbbb")
-fruits.shift();
+// fruits = fruits.sort();
+fruits = fruits.sort().reverse();
 
-let length = fruits.length;
-console.log(length);
+for (let fruit of fruits){
+    console.log(fruit);
+}
