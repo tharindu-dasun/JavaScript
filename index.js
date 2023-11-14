@@ -242,8 +242,8 @@ let firstName = "tharindu";
 
 //Spread operator
 
-let class1 = ["A" , "B" , "C"];
-let class2 = ["D" , "E" , "F"];
-
-class1.push(...class2);
-console.log(class1);
+// let class1 = ["A" , "B" , "C"];
+// let class2 = ["D" , "E" , "F"];
+//
+// class1.push(...class2);
+// console.log(class1);
