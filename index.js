@@ -247,3 +247,17 @@ let firstName = "tharindu";
 //
 // class1.push(...class2);
 // console.log(class1);
+
+//Array.forEach()
+
+let Students = ["kasun" , "nimal" , "dasun"];
+students.forEach(capitalize());
+students.forEach(print());
+
+function capitalize(element, index, array) {
+    array[index] = element[0].toUpperCase()+element.substring(1);
+}
+
+function print(element){
+    console.log(element)
+}
