@@ -250,14 +250,22 @@ let firstName = "tharindu";
 
 //Array.forEach()
 
-let Students = ["kasun" , "nimal" , "dasun"];
-students.forEach(capitalize());
-students.forEach(print());
+// let Students = ["kasun" , "nimal" , "dasun"];
+// students.forEach(capitalize());
+// students.forEach(print());
+//
+// function capitalize(element, index, array) {
+//     array[index] = element[0].toUpperCase()+element.substring(1);
+// }
+//
+// function print(element){
+//     console.log(element)
+// }
 
-function capitalize(element, index, array) {
-    array[index] = element[0].toUpperCase()+element.substring(1);
-}
 
-function print(element){
-    console.log(element)
-}
+
+let e = document.getElementById('btn');
+
+e.addEventListener('click',function (){
+    alert('button clicked !')
+});
